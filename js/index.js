@@ -77,8 +77,50 @@ let midImg = document.querySelector('#middle-img');
 
 midImg.src = 'img/mid-page-accent.jpg';
 
-//mid content
+//features div
+let features = document.querySelectorAll('h4');
 
+features[0].textContent = siteContent['main-content']['features-h4'];
+
+let featContent = document.querySelectorAll('p');
+
+featContent[0].textContent = siteContent['main-content']['features-content'];
+
+//About div
+let about = document.querySelectorAll('h4');
+
+about[1].textContent = siteContent['main-content']['about-h4'];
+
+let aboutContent = document.querySelectorAll('p');
+
+aboutContent[1].textContent = siteContent['main-content']['about-content'];
+
+//services div
+let service = document.querySelectorAll('h4');
+
+service[2].textContent = siteContent['main-content']['services-h4'];
+
+let servContent = document.querySelectorAll('p');
+
+servContent[2].textContent = siteContent['main-content']['services-content'];
+
+//product div
+let prod = document.querySelectorAll('h4');
+
+prod[3].textContent = siteContent['main-content']['product-h4'];
+
+let prodContent = document.querySelectorAll('p');
+
+prodContent[3].textContent = siteContent['main-content']['product-content'];
+
+//Vision div
+let vis = document.querySelectorAll('h4');
+
+vis[4].textContent = siteContent['main-content']['vision-h4'];
+
+let visContent = document.querySelectorAll('p');
+
+visContent[4].textContent = siteContent['main-content']['vision-content'];
 
 //contact
 
